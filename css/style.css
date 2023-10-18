@@ -60,3 +60,14 @@ body {
     padding: 10px;
     cursor: pointer;
 }
+
+.flex-container {
+    display: flex;
+    align-items: center; /* Vertically center items within the container */
+    justify-content: space-between; /* Spread items to the left and right */
+    margin-top: 10px;
+}
+
+#toggle-shapefile-layer {
+    margin-left: 10px; /* Add some spacing between the label and the checkbox */
+}
