@@ -20,6 +20,7 @@ body {
     z-index: 1;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding:15px
 }
 
 #tools {
@@ -50,4 +51,12 @@ body {
 
 .bc-icon.select{
     opacity: 1
+}
+
+#add-shapefile{
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 10px;
+    cursor: pointer;
 }
